@@ -1,0 +1,738 @@
+{
+    "intents": [
+        {
+            "tag": "placement_grades",
+            "patterns": [
+                "do college grades matter in placement?"
+            ],
+            "responses": [
+                "Yes , your cgpa is important for placements "
+            ]
+        },
+        {
+            "tag": "society_manage",
+            "patterns": [
+                "How many societies will i be able to manage in my first year?"
+            ],
+            "responses": [
+                "That depends on how you manage your time but 1 to 3 should be fine"
+            ]
+        },
+        {
+            "tag": "scholarship",
+            "patterns": [
+                "Most importantly HOW will I know about the Scholarship opportunities , their applications and their deadlines",
+                "Is the scholarship form open?"
+            ],
+            "responses": [
+                "Updates about opportunities are sent on whatsapp groups and email by you class",
+                "Which scholarship form are you asking about?"
+            ]
+        },
+        {
+            "tag": "study_seniors",
+            "patterns": [
+                "can i ask seniors for their books?"
+            ],
+            "responses": [
+                "Yes , of course."
+            ]
+        },
+        {
+            "tag": "practice_code",
+            "patterns": [
+                "prog. language and DSA mastery by which year "
+            ],
+            "responses": [
+                "Opportunites come in every year so it is better to learn as early as possible but as far as 1st year is concerned try learning a programming language and by the end of second year you should master dsa"
+            ]
+        },
+        {
+            "tag": "time_management",
+            "patterns": [
+                "I don't get time for self study, not able to manage my time",
+                "How to manage time in college",
+                "How to manage societies and studies",
+                "How to manage coding and studies",
+                "How to manage college studies with coding and extracurricular",
+                "How to manage time with all these assignments societies and a studies?"
+            ],
+            "responses": [
+                "Try preparing a time table for yourself and adhering to it , staying consistent will help you manage your time efficiently",
+                "Attend the classes regularly, make notes and revise them. Join a couple of interesting societies and try not to waste your time in unproductive things like overusing social media websites, etc.",
+                "Dedicate a few hours to society related work, and a few hours for academics. Focus on both of them properly, at least in your first year. Consistency can take you a long way.",
+                "Making proper schedules and timetable is the key. Devote 2-4 hours to coding daily as per your capacity and the rest to college studies and society-related work.",
+                "Consistency and Time Management is the key. Set higher goals for yourself and work towards them and you will be able to achieve them. You can make timetables and allocate proper time for everything but don't forget that all of this is important for your overall development and exposure. It is tough at first but once you get a hang of it you will be proud of yourself for doing so much.",
+                "Where there is a will, there is a way! But, as the CGPA is quite important, studies should be on top of your priority list. Extra curricular is all about your intesest and college will give you enough time was to focus on pursuing your passion"
+            ]
+        },
+        {
+            "tag": "how_to_study",
+            "patterns": [
+                "From where to study the syllabus",
+                "Do we need to study books also or only the notes?",
+                "How should we cope up with the studies...how much should we aim to score",
+                "How can we score full marks in our assignments?",
+                "how can we maintain a good cgpa to get upgradation in the 2nd year."
+            ],
+            "responses": [
+                "The syllabus given by college has recommended books , those books can be used to study the syllabus and resources given by your teachers can be used",
+                "It is always good to aim for perfect scores. That being said, if you understand the subject material thoroughly and learn its application well, marks should not be the criteria. Study for the sake of learning rather than scoring. You'll soon find your GPA in the 9 point series if you do so.",
+                "Listen to your teacher well and make your own notes. Ask questions about what you dont understand and revise regularly and you will ace your exams easily!"
+                ,"Pay attention in your college classes, make notes, ask questions and practice from books told by teachers"
+            ]
+        },
+        {
+            "tag": "coding_platform",
+            "patterns": [
+                " Which platform for coding practice?",
+                "Which platform to learn dsa (paid or free)"
+            ],
+            "responses": [
+                "There are various platforms to practice coding like - geeks for geeks , leetcode , hackerrank",
+                "Some paid resources are coding ninjas , coding blocks , pepcoding free resources - geeks "
+            ]
+        },
+        {
+            "tag": "placement_it",
+            "patterns": [
+                "Would being an IT student affect my placement?"
+            ],
+            "responses": [
+                "No, being an IT student does not affect your placement."
+            ]
+        },
+        {
+            "tag": "chatbot",
+            "patterns": [
+                "What is the purpose of this form just take our information and do nothing?",
+                "And how this is use full for us?",
+                "Is this any kind of society"
+            ],
+            "responses": [
+                "This chatbot has been prepared using your responses to the form ",
+                "Can you please clarify your question?",
+                "No, it is a chatbot that has been designed to answer your questions regarding college life and academics."
+            ]
+        },
+        {
+            "tag": "coding",
+            "patterns": [
+                "language to learn in first year","How much time are we supposed to give to coding"
+            ],
+            "responses": [
+                "You can learn C, C++ , Python , Java or any language that you are comfortable with.","Consistency is the key. Daily 2-3 hours in the beginning is more than enough to get you started and give you confidence."
+            ]
+        },
+        {
+            "tag": "hostels_delhi",
+            "patterns": [
+                "Delhi students get hostels?"
+            ],
+            "responses": [
+                "No , the students who have taken admission under delhi quota cannot claim admission in hostel even if they reside outside delhi , for more information refer to the college website.Here's the link https://www.igdtuw.ac.in/Hostels.php?id=6"
+            ]
+        },
+        {
+            "tag": "desh_ke_mentors",
+            "patterns": [
+                "Can we register ourselves as mentees on desh ke mentors?"
+            ],
+            "responses": [
+                "No , Desh ke mentors is a program fot students of delhi government schools to get guidance , they currently  do not take mentees from colleges "
+            ]
+        },
+        {
+            "tag": "opportunities_update",
+            "patterns": [
+                "How to stay aware about various events taking place and opportunities for us?",
+                "and how will I know about the contests , competitions, hackathons etc."
+            ],
+            "responses": [
+                "Updates about opportunities are sent on whatsapp groups and email by you class representatives or tnp coordinators and you can join telegram groups like minerva and technical resources to stay updated , keep checking linkedin to know about opportunities.",
+                "Many societies in our college post about various hackathons, events, contests, intership opportunities on their social accounts timely, like Minerva, IEEE, GDSC, LeanIn. Also subsribing to DareToCompete newsletters and Linkedin groups keeps you up to date with hackathons and competitions."
+            ]
+        },
+        {
+            "tag": "online_exams",
+            "patterns": [
+                "Why our university prefer AI proctored over Open book examinations?"
+            ],
+            "responses": [
+                "That is purely based on what the university finds better for assessing students."
+            ]
+        },
+        {
+            "tag": "uniform",
+            "patterns": [
+                "Is there a uniform or dress code"
+            ],
+            "responses": [
+                "No there is no uniform in our college."
+            ]
+        },
+        {
+            "tag": "attendance",
+            "patterns": [
+                "How strict is attendence?"
+            ],
+            "responses": [
+                "75% attendance is mandatory."
+            ]
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "From where to get books?"
+            ],
+            "responses": [
+                "Books can be borrowed from the college library."
+            ]
+        },
+        {
+            "tag": "cp",
+            "patterns": [
+                "When to start competitive programming?"
+            ],
+            "responses": [
+                "You can start once you are through with basics of DSA."
+            ]
+        },
+        {
+            "tag": "study_utube",
+            "patterns": [
+                "Suggest a few youtube channels i can follow for my academics"
+            ],
+            "responses": [
+                "CodeWithHarry, GateSmashers, Neso Academy would primarily be enough to cater to your demands"
+            ]
+        },
+        {
+            "tag": "study_subjects",
+            "patterns": [
+                "Which subject to focus more on?",
+                "what subjects are more important than others?"
+            ],
+            "responses": [
+                "For your first year, you should focus on all the subjects to maintain your CGPA, alongside basic DSA in whichever language you are comfortable in.",
+                "All subjects are equally important and you should focus on all of them to maintain a good GPA."
+            ]
+        },
+        {
+            "tag": "study_first",
+            "patterns": [
+                "Which subjects to focus on",
+                "Are all subjects equally important",
+                "How important are societies for first year students",
+                "Tips for first year students"
+            ],
+            "responses": [
+                "Books prescribed by your subject teacher, class notes and a few youtube channels like CodeWithHarry, GateSmashers, Neso Academy would be sufficient. You should also try to inculcate a few hours of DSA in your schedule, if possible.",
+                "Try to manage society-related work and academics equally, explore your interests and branch. Attend classes, make notes, and try to meet new people to get to know more things like what otheres are doing in their field etc."
+            ]
+        },
+        {
+            "tag": "society_join",
+            "patterns": [
+                "What all societies should I join",
+                "Best society of IGDTUW",
+                "Should I join societies in college",
+                "How many societies should I join",
+                "How does joining societies help in growth and development"
+            ],
+            "responses": [
+                "Societies are a great way to meet new people and explore your interests. Try joining as many societies as you can healthily manage while giving priority to your college studies.",
+                "You can try joining a few tech-societies and a couple of non- tech ones. Try joining only as many as you'd be comfortable in."
+            ]
+        },
+        {
+            "tag": "resume",
+            "patterns": [
+                "How to enhance resume",
+                "What to add in resume",
+                "Things to do in first year",
+                "Thanks for the help"
+            ],
+            "responses": [
+                "Try learning the basics of a programming language, and exploring different arenas like web-dev or anything that interests you. Also, put in decent efforts to maintain a good cgpa."
+            ]
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "Where to get hard copies of books?",
+                "Is the college library open?",
+                "can books be issued from the college library"
+            ],
+            "responses": [
+                "The college library is open on all working days till 5PM, and books can be issued from there using your ID card",
+                "Issue books from from the library, ask your seniors for their old books or your friends to let you borrow them."
+            ]
+        },
+        {
+            "tag": "internship_tnp",
+            "patterns": [
+                "How to prepare for internships",
+                "Internships for 2nd/3rd year?",
+                "Can you help?"
+            ],
+            "responses": [
+                "You have internships provided by the Tnp cell in 3rd year. You give interviews for it at the end of second year.For this you should hone your coding skills by daily practice and build a couple of projects to enhance your CV"
+            ]
+        },
+        {
+            "tag": "placement_mae",
+            "patterns": [
+                "What is the situation of placement for MAE in college",
+                "Are there any jobs for MAE students",
+                "Are MAE students allowed to sit in college placements",
+                "What is the roadmap for placements for MAE",
+                "how to open a new account"
+            ],
+            "responses": [
+                "Every branch has abundant opportunities in the market. There is no stopping deserving candidates achieve their goals, and the strong alumni background of IGDTUW backs this fact.",
+                "If a company doesn't allow you to sit on campus, you can try off campus and bag an offer"
+            ]
+        },
+        {
+            "tag": "upgradation",
+            "patterns": [
+                "What is the procedure for upgradation of branches?"
+            ],
+            "responses": [
+                "It only depends on your cgpa."
+            ]
+        },
+        {
+            "tag": "hackathons",
+            "patterns": [
+                "What are we supposed to do in hackathons",
+                "What type of solutions are we supposed to submit in hackathons?"
+            ],
+            "responses": [
+                "Hackathons provide a platform for programmers to collaborate together and work on a problem statement to ultimately design a prototype and write code for the same. Various companies use hackathons to acquire talent. There are many hackathons held throughout the year in both, offline and online mode",
+                "The answer/solution to be submitted usually depends on the type of hackathon you are participating in - usually you have to submit a presentation for the idea submission phase and then a working prototype by writing code for your solution."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Hay"
+            ],
+            "responses": [
+                "Hello",
+                "Hi",
+                "Hi there"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later",
+                "Have a nice day",
+                "Bye! Come back again"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Who you are?"
+            ],
+            "responses": [
+                "I.m your bot assistant!",
+                "I'm an Artificial Intelligent bot!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me?",
+                "give me a hand please",
+                "Can you help?",
+                "What can you do for me?",
+                "I need a support",
+                "I need a help",
+                "support me please"
+            ],
+            "responses": [
+                "Tell me how can assist you",
+                "Tell me your problem to assist you",
+                "Yes Sure, How can I support you"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        },
+        {
+            "tag": "higher_studies_use",
+            "patterns": [
+                " is there no use of higher studies like M.Tech?"
+            ],
+            "responses": [
+                "Of course there is! Masters helps you move into academia and research. So if there is a field to wish to specialse in, you should definetely go for it. Another reason to pursue higher studies is if you want to change your career path entirely"
+            ]
+        },
+        {
+            "tag": "higher_studies_use",
+            "patterns": [
+                " is there no use of higher studies like M.Tech?"
+            ],
+            "responses": [
+                "Of course there is! Masters helps you move into academia and research. So if there is a field to wish to specialse in, you should definetely go for it. Another reason to pursue higher studies is if you want to change your career path entirely"
+            ]
+        },
+        {
+            "tag": "opportunities_update",
+            "patterns": [
+                "and how will I know about the contests , competitions, hackathons etc."
+            ],
+            "responses": [
+                "OMany societies in our college post about various hackathons, events, contests, intership opportunities on their social accounts timely, like Minerva, IEEE, GDSC, LeanIn. Also subsribing to DareToCompete newsletters and Linkedin groups keeps you up to date with hackathons and competitions."
+            ]
+        },
+        {
+            "tag": "sports_teams",
+            "patterns": [
+                "What all sports teams are there?"
+            ],
+            "responses": [
+                "We have Badminton, Basketball, Volleyball, Football, Table Tennis, Chess, Athletics, Kabbadi sport teams in our college."
+            ]
+        },
+        {
+            "tag": "library_location",
+            "patterns": [
+                "Where is the library?"
+            ],
+            "responses": [
+                "The library is located in the building directly behind the field. It is located on the first floor"
+            ]
+        },
+        {
+            "tag": "societies_count",
+            "patterns": [
+                "How many societies are in the college? "
+            ],
+            "responses": [
+                "There are definitely more than 20 of them and are still increasing"
+            ]
+        },
+        {
+            "tag": "higher_study_branch",
+            "patterns": [
+                " which branch is feasible for higher studies? "
+            ],
+            "responses": [
+                "All branches have equally good specializations that you can opt for if you want to pursue higher education. Some examples may be specialization in Data Science after pursuing Computer Science or specialization in Robotics and AI after taking up MAE or ECE undergraduate courses. Management is another option to look up to for higher studies. By and large, specialization should depend on the area of interest and skill set of the candidate."
+            ]
+        },
+        {
+            "tag": "non_tech_comp_update",
+            "patterns": [
+                "How do we get to know about any non technical competitions taking place outside our college?"
+            ],
+            "responses": [
+                "DareToCompete and LinkedIn are good resources to refer to for the same. You should also keep searching for opportunities on Google or through societies/communities you are a part of."
+            ]
+        },
+        {
+            "tag": "roadmap_college",
+            "patterns": [
+                "What should be our roadmap for better results or you can suggest daily timetable like how many hours should we give to what other than our classes. "
+            ],
+            "responses": [
+                "Divide your time judiciously between your course material and outside the curriculum activities. Make sure you revise your classwork daily. Persistence is the key to better results."
+            ]
+        },
+        {
+            "tag": "when_to_code",
+            "patterns": [
+                "We should start coding now but how fast should we study that....till the second year or till the end of first year? "
+            ],
+            "responses": [
+                "You should try to complete basic DSA till the end of first year and devote your second year for polishing your DSA and do interview questions regularly."
+            ]
+        },
+        {
+            "tag": "friends_college",
+            "patterns": [
+                "How to find a good circle of peers in online mode","how to you indulge and interact with your peers online?",
+                "Also it is very difficult to make friends online. any solution for it would be helpful too."
+            ],
+            "responses": [
+                "Interact in your class groups, have informal meetings, ask about their intersts and make smaller groups of students with similar interets. Try to study/do projects/code together."
+                ,"Join class meets, text people personally, try joining different societies and be active in them. It will help you expand your network and make new friends."
+                ,"Talk to different people and soon you'll find the right bunch of people for yourself. Offline classes have started and soon you will be making a lot of friends!"
+            ]
+        },
+        {
+            "tag": "seniors_connect",
+            "patterns": [
+                "How to reach out to seniors without hesitating so that even they don't get disturbed?",
+                "There are lot of students messaging the seniors so how can I stand out and make a good relationship with them?",
+                "Every senior is asking the 1st year students to make good connections and maintain a good relationship with the seniors, but I want to know how ?"
+            ],
+            "responses": [
+                "Be respectful, don't call them instead drop a polite message and they will revert when they are free.",
+                "Instead of messaging them personally again and again be active in societies, show up in informal meets, do the work assigned to you and interact with them respectfully.",
+                "Through societies! Societies are an excellent way to build connections and interact with your peers as well as your seniors. You can also use linkedin and interact with the alumni network and your seniors of IGDTUW."
+            ]
+        },
+        {
+            "tag": "miss_opportunity",
+            "patterns": [
+                "is it okay to miss out opportunities in 1st yr bcz I'm focusing on basics...but at the same time I feel being left out?"
+            ],
+            "responses": [
+                "You should not miss out important opportunities in your first year as most of the first year opportunites are in accordance with your level and are pretty basic. You should try not to miss the important ones, there will be many opportunites coming in the future as well but applying for something doesn't hurt. Try to multitask a little. But if it gets too overwhelming for you, it's okay to prioritize your basic studies and work on your skill set."
+            ]
+        },
+        {
+            "tag": "linkedin_connect",
+            "patterns": [
+                "How to network with people on linkedin","Can we also have a session on how to use linkedin and which people to connect with? ? "
+            ],
+            "responses": [
+                "You can send a connection request to people you want to connect with or seek advice from. You can also send a note with the request explaining why you want to connect with them."
+                ,"There are many societies holding these types of sessions, try contacting them"
+            ]
+        },
+        {
+            "tag": "skillset",
+            "patterns": [
+                "How to expand your skill set? What all skills do we need to acquire in our first year ?"
+            ],
+            "responses": [
+                "You can explore different fields to expand your skill set. IGDTUW has really good societies like GDSCor LeanIN for students interested in Tech. In your first year apart from your DSA, you can learn web development, app development, AR-VR, ML-AI etc. Options are endless."
+            ]
+        },
+        {
+            "tag": "practice_code",
+            "patterns": [
+                "Which questions we have to practise and from where ?"
+            ],
+            "responses": [
+                "For Data Structures and Algorithms, it is advisable to practice questions from online coding platforms like HackerRank, HackerEarth, LeetCode, CodeChef, and many others. Start from the basic data structures and move your way up to advanced concepts. "
+            ]
+        },
+        {
+            "tag": "upgradation",
+            "patterns": [
+                "will internal upgradation happen this year too? or there is only upgradation after 1year on the basis of cgpa ?"
+            ],
+            "responses": [
+                "You can try asking your CR's for such information"
+            ]
+        },
+        {
+            "tag": "notes_college",
+            "patterns": [
+                "From where can we get proper notes for the subjects ? The google drive provided do not have notes for all the topics."
+            ],
+            "responses": [
+                "You can ask your teachers or approach a senior. There are some really good resources on Internet for every subject through which you can make notes or download them. For example Gate Smashers is a really good youtube channel for CS/IT students."
+            ]
+        },
+        {
+            "tag": "achievements",
+            "patterns": [
+                "How do the seniors have so much on their linkedIn bio, when I see it I am just like how can someone be doing this much. Being a complete noob right now I don't even know about these things that they write in their experiences and bio."
+            ],
+            "responses": [
+                "Don't hesitate to approach your seniors either through societies or LinkedIn to know about different opportunities. Focus on learning and improving your skill set, achievements will follow on their own. Participate and keep leaning towards a growth mindset."
+            ]
+        },
+        {
+            "tag": "labs_manage",
+            "patterns": [
+                " how will we manage labs with theory subjects and with coding etc"
+            ],
+            "responses": [
+                "Devote adequate time to every subject. Planning out your schedule and prioritizing things will help you in navigating and juggling all the tasks smoothly."
+            ]
+        },
+        {
+            "tag": "placement",
+            "patterns": [
+                "how true are the placement statistics? Does an avg student bag such high packages?",
+                "the placement distribution among students is even or very uneven? Like 4, 5 students get very high packages and rest very low which is balanced out when we look at the average"
+            ],
+            "responses": [
+                "The placement statistics are true indeed, a college won't advertise fake information",
+                "The best answer to that question can only be given by the tnp cell of our university"
+            ]
+        },
+        {
+            "tag":"study_credits",
+            "patterns": [
+                "Confused that how credits thing works ?? Like, have no idea, how the credits were added in our overall marks"
+            ],
+            "responses": [
+                "Every semester has a certain number of credits allotted to each course you take up. For example, Applied Mathematics is a 4 credit course, which means that every week four hours are allocated for the subject. This is taken into account for overall marks calculation, where grade point in each subject is multiplied by the credit of that course, and the sum of all the grade points of other subjects similarly is then divided by the total number of credits for that semester. For more information, kindly visit the University website."
+            ]
+        },
+        {
+            "tag":"college",
+            "patterns": [
+                "Why did our university do not have sports quota and CW quota for consideration at the time of admissions?"
+                ,"Does our university give opportunity for participating in All india university games ?",
+                "Why did our university don't have student union ?",
+                "Why did our university has less options for gec courses ?"
+            ],
+            "responses":[
+                "The best answer to that question can only be given by our university"
+            ]
+        },
+        {
+            "tag": "sports_facilities",
+            "patterns": [
+                "what kind of sports facilities",
+                "Does our university has proper sports infrastructure like badminton courts, football ground,Track field , Gymnasium etc.?"
+            ],
+            "responses": [
+                "Athletics, football, badminton, volleyball, kho-kho, table tennis, basketball etc."
+                ,"The campus has 2 badminton courts, a basketball court and a multipurpose field where practice for football and athletics takes place."
+            ]
+        },
+        {
+            "tag": "CB_requirements",
+            "patterns": [
+                "What are the prerequisite skills to be a part of celestial biscuit?",
+                "I have just started coding so can I become a part of celestial biscuit?"
+            ],
+            "responses": [
+                "It depends on the project you are gonna work on, the required skill sets of that particular project will be your prerequisites. Also you learn a lot while working on a project itself, so basic skills are alright.",
+                "As of now Celestial Biscuit is not recruiting but sure, in the future when there will be an opening, you can definitely apply."
+            ]
+        },
+        {
+            "tag": "not_understand",
+            "patterns": [
+                "Notification feature can help a lot "
+            ],
+            "responses": [
+                "Can you please be more precise with your question"
+            ]
+        },
+        {
+            "tag": "college_fee",
+            "patterns": [
+                "I just want to ask from where we can get the fee receipt?"
+            ],
+            "responses": ["You can download the fee receipt from the IGDTUW portal. Login to https://igdtuw.in/IGDTUW/login and navigate to the Fee Receipt section to download your fee receipt."]
+        },
+        {
+            "tag": "cse_to_mae",
+            "patterns": [
+                "what courses can mae students prefer if they want to go for it sector?"
+            ],
+            "responses": [
+                "Courses pertaining to the Computer Science domain like Operating Systems, Data Structures and Algorithms, and Object-Oriented Programming should be preferred to build strong basics."
+
+            ]
+        },
+        {
+            "tag": "hostel_curfew",
+            "patterns": ["Hostel curfew timing?"],
+            "responses": [
+                "Hostellers have a curfew time of 8 pm."
+            ]
+        },
+        {
+            "tag": "hostel_dayscholars",
+            "patterns": ["can day scholars access any hostel facility or can they go inside the hostel?"],
+            "responses":["No, day scholars are not allowed inside the hostel premises."]
+        },
+        {
+            "tag": "college_free",
+            "patterns": ["how much free time can we expect"],
+            "responses":["Officially classes are till 5pm but many times classes have breaks in between or finish till 3-4pm. The key is to utilize all the time you get free between classes and the rest of the day after 5 is free ofcourse."]
+        },
+        {
+            "tag": "college_schedule",
+            "patterns": ["how hectic is the class schedule and assignment"],
+            "responses": ["It can seem hectic if you procastinate the tasks assigned to you, otherwise if you follow up regularly it does not seem that much."]
+        },
+        {
+            "tag":"NCC",
+            "patterns":["Does our university have NCC ?"],
+            "responses":["No we dont have NCC in our college"]
+        },
+        {
+            "tag": "college_webex",
+            "patterns": ["Why does our university prefer to conduct online classes on Cisco WebEx instead of Google meet ?"],
+            "responses":["Since our university has taken a subscription, they prefer the Cisco WebEx platform"]
+        },
+        {
+            "tag": "sports_fest",
+            "patterns":["When will be the IGNITE sports fest 2022 held ?"],
+            "responses":["The date is yet to be decided"]
+        },
+        {
+            "tag":"society_build",
+            "patterns":["How can I build my own society at Igdtuw?"]
+            ,"responses":["You can definitely ask a senior who has cofounded a society for such advise"]
+        },
+        {
+            "tag":"yoga_college",
+            "patterns":["Is there any Yoga society at igdtuw ?"],
+            "responses":["No, not yet!"]
+        },
+        {
+            "tag":"activities",
+            "patterns":["How to join more and more mentorship cohorts ?"],
+            "responses":["The secret is to keep applying! Keep applying whenever you come across an opportunity. "]
+        },
+        {
+            "tag": "AR/VR",
+            "patterns":[" What is AR/VR?What are it's benefits?"],
+            "responses":["(Augmented Reality/Virtual Reality) Refers to computer-generated simulations that integrate the real world (AR) or are entirely self-contained (VR). AR applications let you move around in the real world."]
+        },
+        {
+            "tag":"UI/UX",
+            "patterns":["What is UI/UX?What are it's benefits?"],
+            "responses":["UX (user experience) and UI (user interface) are two interdependent terms. While UI generally deals with the interaction between users and computer systems, software and applications, UX deals more generally with a user's overall experience with a brand, product or service. "
+            ]
+        },
+        {
+            "tag":"labbs_online",
+            "patterns":["please tell something about the practicals ? what are these labs and how they are conducted online ?"],
+            "responses":["Right now the college is offline so labs are too, but teachers use online softwares/platforms for their respective labs"]
+        }
+    ]
+}
