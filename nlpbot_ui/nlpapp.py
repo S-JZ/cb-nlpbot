@@ -1,4 +1,3 @@
-#from chatbot import CB
 from nlp_bot import nlp
 from flask import Flask, render_template, request
 
