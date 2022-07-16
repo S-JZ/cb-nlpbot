@@ -1,5 +1,5 @@
 import nltk
-
+# nltk.download()
 
 #import speech_recognition as sr
 #from playsound import playsound
@@ -216,7 +216,7 @@ def nlp(user_input):
         if remove_punc(user_input.lower()) in exit_list:
             res = ("Bye, Chat with you later")
             language = 'en'
-            print("Bot:", res, end = '\n')
+            # print("Bot:", res, end = '\n')
             #scores.append(1)
             lt.append(user_input)
             Question.append(user_input)
@@ -226,11 +226,11 @@ def nlp(user_input):
         else:
             if greeting_response(user_input) != None:
                 res = (greeting_response(user_input))
-                print("Bot:", res, end = '\n')
+                # print("Bot:", res, end = '\n')
                 #scores.append(1)
             else:
                 res = (bot_response(user_input))
-                print("Bot:", res, end = '\n')
+                # print("Bot:", res, end = '\n')
         language = 'en'
         
         # Question.append(user_input)
