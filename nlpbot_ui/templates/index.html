@@ -3,26 +3,32 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>ChatBot</title>
+  <title>Chat Bot</title>
+  <link rel="icon" type="image/x-icon" href="https://img.icons8.com/stickers/344/robot-2.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}"> -->
+  <link rel="stylesheet" href="../static/styles/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body >
   <!-- partial:index.partial.html -->
   <section class="msger">
     <header class="msger-header">
       <div class="msger-header-title">
-        <i class="fas fa-bug"></i> ChatBot <i class="fas fa-bug"></i>
+        <h2>FAQ Chat Bot </h2>
       </div>
     </header>
 
     <main class="msger-chat">
       <div class="msg left-msg">
-        <div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"></div>
+        <div class="msg-img" style="background-image: url(data:image/png;base64,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)"></div>
 
         <div class="msg-bubble">
           <div class="msg-info">
@@ -53,9 +59,9 @@
 
 
     // Icons made by Freepik from www.flaticon.com
-    const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
-    const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
-    const BOT_NAME = "ChatBot";
+    const BOT_IMG = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANgAAADpCAMAAABx2AnXAAABs1BMVEX///8REiSRZr+gecwAAADa2ts2M4JOQZBxU5v/iTlvULfs7uP/Q0JFN1uJiYlmcHz/TVAvK1AAABqNYL0AABePZb2bdMgQEiOKW7uRZ75DO4mYbsVtTbYAABUKDCCoqaeFX69nRpXt7e1yVJvOz8s7KlXh4tlXRpZgSIA+M1KLZ8NcZ3T9Q0KBg4abetD/ODd7WLlkQbKUlJptbnZTU12gg77Pxts4K053cYBmQ5SNarknJHyEX7aRjJgvLIAyHk5HRIvg1uwXEndLO2R8W6aiYa64t87/MTD+5eT+ajz+8vL+cTz9gH/+urn9WlrV1dkpKjhBQUwuLjzPv+K+p9a1mtTJtt69uMRPOW2YkaOnmMCNd7B7YaFoTYt+aZ1uZnlZUWlbO4KeiruNhJ2EdZ+4q8yrraaQiqDt6PRgXp";
+    const PERSON_IMG = "https://i.pinimg.com/736x/ee/d1/76/eed176d5fb3f77e3e003b85a246ba7ad.jpg";
+    const BOT_NAME = "Chat Bot";
     const PERSON_NAME = "You";
 
     msgerForm.addEventListener("submit", event => {

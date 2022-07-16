@@ -1,5 +1,4 @@
 import nltk
-# nltk.download()
 
 #import speech_recognition as sr
 #from playsound import playsound
