@@ -16,7 +16,7 @@ import numpy as np
 #import pyaudio
 #import speech_recognition as sr
 import statistics 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import pandas as pd
 import csv
 from nltk.corpus import stopwords
